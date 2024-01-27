@@ -6,8 +6,7 @@ def searcher():
      print('ваш список товаров:', nado)
      num=list1
      if num in nado:
-          vot=nado.index(num)
-          print('товар найден',vot)
+          print('товар найден',nado.index(num))
      else:
           print('товар не найден')
 searcher()
